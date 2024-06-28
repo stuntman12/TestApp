@@ -44,7 +44,7 @@ extension CharactersViewController: UICollectionViewDelegate {
 	
 	func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
 		if indexPath.row == self.collection.characters.count - 1 {
-			
+			// добавить загрузку след страниц
 		}
 	}
 }
